@@ -36,7 +36,6 @@ class App extends React.Component {
         const { selectedVideo, videos } = this.state;
         return (
             <Grid justify="center" container spaceing={10}>
-            <h1>{process.env.YOUTUBE_API_KEY}</h1>
         		<Grid item xs={12}>
         			<Grid container spaceing={10}>
         				<Grid item xs={12}>
